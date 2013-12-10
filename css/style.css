@@ -13,7 +13,7 @@ header a:hover {
   color: rgba(0,0,0,.8);
 }
 
-#desc {
+#about-me {
   font-family: 'Lusitana', serif;
   color: rgba(0,0,0,.8);
   font-size: 22px;
@@ -23,7 +23,7 @@ header a:hover {
   line-height: 1.3em;
 }
 
-#desc a {
+#about-me a {
   text-decoration: none;
   color: red;
 }
@@ -90,7 +90,7 @@ footer {
   margin: 30px 10px;
 }
 
-/*this is the name of the project*/
+/*this is the name of each project*/
 .project_name {
   color: #cf402c;
   font-weight: bold;
@@ -102,7 +102,7 @@ footer {
 /*this is description to projects*/
 .project_desc {
   display: inline;
-  color: #b7b7b7;
+  color: rgba(0,0,0.8);
   font-family: 'Lusitana', serif;
   font-size: 16px;
 }
