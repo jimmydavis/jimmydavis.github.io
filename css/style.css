@@ -120,15 +120,16 @@ footer {
 }
 
 #projects {
-  width: 960px;
+  /*width: 960px;*/
+  margin: 0 auto;
 }
 
 /*this is the project name and desc grouped together*/
 .project_group {
   width: 500px;
-  float: left;
+  /*float: left;*/
   text-align: left;
-  margin: 30px 10px;
+  margin: 50px;
 }
 
 /*this is the name of each project*/
@@ -136,9 +137,15 @@ footer {
   color: #ff5f1b;
   font-weight: bold;
   font-family: "Gudea";
-  font-size: 20px;
+  font-size: 24px;
   margin: 10px;
   float: left;
+  text-decoration: none;
+}
+
+.project_name:hover {
+  color: #dc5318;
+  font-weight: bold;
 }
 
 /*this is description to projects*/
@@ -150,16 +157,21 @@ footer {
   float: left;
 }
 
-.project_link {
+.github_repo {
   text-decoration: none;
   color: #ff5f1b;
+  margin-top: 10px;
 }
-
-
 
 #skills {
   margin-top: 20px;
   text-align: center;
+  font-family: "Gudea";
+}
+
+#skills p {
+  font-size: 22px;
+  margin: 10px;
 }
 
 #skills li {
@@ -170,10 +182,13 @@ footer {
   color: #fff;
 }
 
-.screen_shot {
-  width: 400px;
+.screen_shot img {
+  margin: 10px;
+  width: 600px;
   height: 400px;
-  float: right;
+  position: relative;
+  border: 2px solid rgba(0,0,0,.8);
+  border-radius: 2px;
 }
 
 .show-email {
@@ -181,4 +196,5 @@ footer {
   color: #ff5f1b;
   font-size: 16px;
   line-height: 1.3em;
+  height: 40px;
 }
