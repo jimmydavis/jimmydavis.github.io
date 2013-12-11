@@ -15,60 +15,80 @@
 
   <header>
   <nav>
-    <ul>
-      <li id="home"><a href="index.html">home</a></li> |
-      <li id="about"><a href="about.html">about</a></li> |
-      <li id="code"><a href="code.html">projects</a></li>
+    <ul class="head_links">
+      <li id="home"><a href="index.html"></a></li>
+      <li id="code"><a href="code.html"></a></li>
     </ul>
   </nav>
   </header>
 
-  <div class="projects">
+    <!-- add link to each github repo -->
+  <!-- add description in readme for each repo -->
 
-      <div id="proj1">
-        <h3>Lesson Connection</h3>
-        <p>The sport of lacrosse has created so many opportunities for me and I was fortunate enough to play for 4 years at Princeton University.  I wanted to build an app to help youth and inexperienced players gain access to private lessons from some of the best lacrosse players in the country.</p>
-        <a href="lacrosse-lessons.herokuapp.com">Lacrosse Lessons</a>
-        <img src="http://i.imgur.com/4YvyFPh.png" alt="">
+  <div id="projects">
+
+      <div class="project_group">
+        <p class="project_name">Lesson Connection</p>
+        <p class="project_desc">The sport of lacrosse has created so many opportunities for me and I was fortunate enough to play for 4 years at Princeton University.  I wanted to build an app to help youth and inexperienced players gain access to private lessons from some of the best lacrosse players in the country.</p> <br>
+        <a href="lacrosse-lessons.herokuapp.com" target="_blank" class="project_link">Lesson Connection</a>
+        <br>
+        <div class="screen_shot">
+          <img src="http://i.imgur.com/4YvyFPh.png" alt="">
+        </div>
     </div>
 
 
 
-      <div id="proj2">
-        <h3>NYC Farmers' Markets</h3>
-        <p>This project utilizes a D3 (Data-Driven Documents) map that shows the locations of farmers' markets in the New York City area in 2013.  We implemented a jQuery UI slider to display circles on the map indicating farmers' markets that are open for service on that particular day.</p>
-        <a href="nycfarmersmarkets.herokuapp.com">NYC Farmers' Markets</a>
-        <img src="http://i.imgur.com/hhmYNEC.png" alt="">
+      <div class="project_group">
+        <p class="project_name">NYC Farmers' Markets</p>
+        <p class="project_desc">This project utilizes a D3 (Data-Driven Documents) map that shows the locations of farmers' markets in the New York City area in 2013.  We implemented a jQuery UI slider to display circles on the map indicating farmers' markets that are open for service on that particular day.</p> <br>
+        <a href="nycfarmersmarkets.herokuapp.com" target="_blank" class="project_link">NYC Farmers' Markets</a>
+        <br>
+        <div class="screen_shot">
+          <img src="http://i.imgur.com/hhmYNEC.png" alt="">
+        </div>
       </div>
 
 
 
-      <div id="stick-swag">
-        <h3>Stick Swag, L.L.C</h3>
-        <p>I started a company in 2013 called Stick Swag, which creates a fully customizable decals designed for any men's or women's lacrosse stick. My brother and I run all aspects of the business together, and I redesigned our site</p>
-        <a href="www.stickswag.com">Stick Swag</a>
+<!--       <div class="project_group">
+        <p class="project_name">Stick Swag, L.L.C.</p>
+        <p class="project_desc">I started a company in 2013 called Stick Swag, which creates a fully customizable decals designed for any men's or women's lacrosse stick. My brother and I run all aspects of the business together, and I redesigned our site</p> <br>
+        <a href="www.stickswag.com" target="_blank" class="project_link">Stick Swag</a><br>
         <img src="" alt="">
-      </div>
+      </div> -->
 
 
   </div>
 
 
-<nav id="skills">
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>jQuery</li>
-    <li>AJAX</li>
-    <li>Backbone.js</li>
-    <li>Ruby</li>
-    <li>Ruby on Rails</li>
-    <li>PostgreSQL</li>
-    <li>SASS</li>
-    <li>Rspec</li>
-  </ul>
-</nav>
+  <footer>
+  <nav id="skills">
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>jQuery</li>
+      <li>AJAX</li>
+      <li>Backbone.js</li>
+      <li>Ruby</li>
+      <li>Ruby on Rails</li>
+      <li>PostgreSQL</li>
+      <li>SASS</li>
+      <li>Rspec</li>
+    </ul>
+  </nav>
+
+    <nav>
+    <ul class="social">
+      <li><a href="#" class="gmail"id="email"></a></li>
+      <li><a href="https://github.com/jimmydavis" class="github"></a></li>
+      <li><a href="http://www.linkedin.com/pub/jimmy-davis/56/230/71b" class="linkedin"></a></li>
+      <li><a href="https://twitter.com/jimmyd_19" class="twitter"></a></li>
+      <div class="show-email"></div>
+    </ul>
+  </nav>
+  </footer>
 
 </body>
 </html>
